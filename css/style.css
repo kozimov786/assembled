@@ -9,7 +9,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    font-family: "IBM Plex Sans""Roboto" sans-serif;
+    font-family: "IBM Plex Sans""Arial" sans-serif;
     font-size: 17px;
     font-weight: normal;
     line-height: 25.2px;
@@ -153,6 +153,10 @@ body{
 .header-ads{
     display:block;
     margin:0 auto;
+    transition:ease 0.4s;
+}
+.header-ads:hover{
+    opacity: 0.3;
 }
 .stats-forecasts{
     background-color: #000;
@@ -180,6 +184,7 @@ body{
     }
     .stats-wrapper{
         display: flex;
+        margin-bottom: 131px;
         justify-content: space-between;
     }
     .stats-info{
@@ -194,3 +199,58 @@ body{
         line-height: 53px;
         color: #FFFFFF;
     }
+    .schedule-info{
+        width: 684px;
+        padding: 5px 20px;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .schedule-title{
+        font-weight: bold;
+        font-family: "Roboto","Arial", sans-serif;
+        font-size: 44px;
+        line-height: 53px;
+        text-align: center;
+        margin: 0;
+        color: #FFFFFF;
+    }
+    .schedule-img{
+        margin-bottom: 68px;
+    }
+    .schedule-bottom-info{
+        display: flex;
+        margin-left: 50px;
+        margin-bottom: 157px;
+
+    }
+    .schedule-bottom__text{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        color: #A9B0BE;
+        margin-right: 86px;
+        display: flex;
+        align-items: center;
+    }
+    .schedule-bottom__text::before{
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        background-repeat: no-repeat;
+        background-image: url(../img/Vector\ \(2\).png);
+    }
+    .empower-info{
+        width: 590px;
+        text-align: center;
+        margin: auto;
+    }
+    .empower-wrapper{
+        display: flex;
+    }
+    .empower-left{
+        margin-right: 28px;
+    }
+    
