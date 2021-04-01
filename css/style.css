@@ -24,6 +24,9 @@ body{
     background-color:#7CBA72;
     text-align: center;
 }
+a:hover{
+    color: #21ABA8;
+}
 .top-header-link{
   text-decoration: none;
   margin: 0;
@@ -65,6 +68,16 @@ body{
     border-radius: 30px;
     color: #40AB7E;
     margin-left: 26px;
+    transition:ease 0.5;
+}
+.sign-btn:hover{
+    color: #000;
+    background-color: #40AB7E;
+}
+.request-btn:hover{
+    color: #7CBA72;
+    background-color: #000;
+    box-shadow:inset 0 4px 2px #7CBA72;
 }
 .request-btn{
      padding: 10px 20px;
@@ -98,6 +111,9 @@ body{
     text-align: center;
     color: #000000;
     margin-bottom: 60px;
+}
+.info-btn:hover{
+    color: #0E1220;
 }
 .info-btn{
     font-weight: normal;
@@ -386,3 +402,42 @@ body{
         color: #0E1220;
         margin-bottom: 31px;
      }
+    .site-footer{
+        padding: 50px 120px;
+       background-color: #0E1220;
+    }
+    .footer-logo{
+        margin:0 561.5px 50px;
+    }
+    .footer-wrapper{
+        display: flex;
+        max-width: 1200px;
+        padding: 0 50px;
+        margin: auto;
+    }
+    .footer-list{
+    list-style-type: none;
+    margin-right: 185px;
+    padding: 0;
+
+    }
+    .footer-list:last-child{
+        margin-right: 0;
+    }
+    .title{
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 21px;
+    }
+    .footer-link{
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 16px;
+        color: #D3D8E1;
+        text-decoration: none;
+    }
+    
